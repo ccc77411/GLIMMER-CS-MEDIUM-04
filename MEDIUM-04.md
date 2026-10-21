@@ -169,9 +169,11 @@ void translate_address(uint32_t virtual_address, bool is_write_access) {//请你
 ### 【任务 2.3：深入理解内存与页表管理】  
 #### 1.与内存组织相关的寄存器有什么？他们分别有什么作用？  
 - CR0 为分页的总开关，控制是否启动分页。CR2 负责在缺页异常时把出错的虚拟地址写进CR2，CR3用来记录页表的物理基地址，CR4用来负责分页的拓展。  
-#### 2.一次从内存中完整读取数据的过程是怎么样的？一次从存储中完整读取数据的过程是什么样的？你可以绘制一张流程图，借助这张图来描述过程。  
-<img width="4032" height="3024" alt="IMG_1542" src="https://github.com/user-attachments/assets/d7fa1ce5-cd5c-42b9-b457-008aeada61a0" />
+#### 2.一次从内存中完整读取数据的过程是怎么样的？一次从存储中完整读取数据的过程是什么样的？你可以绘制一张流程图，借助这张图来描述过程。   
+- 一次从内存中完整读取数据的过程       
+<img width="4032" height="3024" alt="IMG_1542" src="https://github.com/user-attachments/assets/d7fa1ce5-cd5c-42b9-b457-008aeada61a0" />   
 
+- 一次从存储中完整读取数据的过程  
    
 <img width="5712" height="4284" alt="IMG_1545" src="https://github.com/user-attachments/assets/a2c5ceed-403e-4f7d-a563-b46d3ccf418f" />
 
